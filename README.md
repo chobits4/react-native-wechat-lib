@@ -33,6 +33,10 @@ If you need to use the WeChat SDK without payment for your IOS version, use the 
 ```sh
 npm install react-native-wechat-lib --save
 react-native link react-native-wechat-lib
+cd ios
+pod install
+cd ..
+react-native link
 ```
 
 ## 起步
